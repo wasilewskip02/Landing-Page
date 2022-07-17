@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+body {
+    min-height: 100vh;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+}
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(61, 84, 84, 0.4);
+    color: rgb(196, 255, 255);
+    display: flex;
+    align-items: center;
+}
+nav {
+    text-align: right;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    font-size: 140%;
+    margin-right: 2%;
+}
+a:hover {
+    color:rgb(95, 108, 120)
+}
+h1, h2 {
+    letter-spacing: 10px;
+    margin-left: 2%;
+}
+section, footer {
+    width: 50%;
+    margin: 0 auto;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    margin-top: 2%;
+}
+p {
+    margin: 2% 0% 0% 6%;
+    font-family: cursive;
+    color: rgb(255, 235, 206);
+    letter-spacing: 4px;
+    font-size: 120%;
+    text-align: justify;
+}
+i {
+    position: relative;
+    animation: move 600ms ease-in-out infinite;
+}
+button {
+    display: block;
+    margin: 2% auto;
+    color: rgb(0, 0, 0);
+    background-color: rgb(198, 16, 16);
+    padding: 2%;
+    font-size: 120%;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+iframe {
+    width: 90%;
+    height: 45vh;
+}
+@keyframes move {
+    from {top:-2px;}
+    to {top: 4px;}
+}
+
